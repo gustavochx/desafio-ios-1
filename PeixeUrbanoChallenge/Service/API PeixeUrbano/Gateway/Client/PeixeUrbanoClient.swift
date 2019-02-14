@@ -22,17 +22,15 @@ class PeixeUrbanoClient: APIClient {
     }
 
     func getCityDeals(completion: @escaping(Result<OfferResponse,APIError>) -> Void) {
-        getCity(with: .listcityoffers) { [weak self] result in
+        getCity(with: .listcityoffers) {  result in
             switch(result) {
-            case .sucess(let offerResponse):
-                completion(Result.sucess(offerResponse))
+            case .success(let offerResponse):
+                completion(Result.success(offerResponse))
 
             case .failed(let error):
                 completion(Result.failed(error))
             }
         }
-
-
     }
 
     private func getCity(with cityRequest: PeixeUrbanoEndpoints,

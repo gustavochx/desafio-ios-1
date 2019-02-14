@@ -9,6 +9,6 @@
 import UIKit
 
 public enum Result<T,U> where U: Error {
-    case sucess(T)
+    case success(T)
     case failed(U)
 }

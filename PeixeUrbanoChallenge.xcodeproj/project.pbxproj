@@ -22,8 +22,13 @@
 		197A5C2622139B5100048191 /* OfferObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C2522139B5100048191 /* OfferObjects.swift */; };
 		197A5C2822139E3F00048191 /* OfferImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C2722139E3F00048191 /* OfferImage.swift */; };
 		197A5C2A22139FD200048191 /* OfferLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C2922139FD200048191 /* OfferLocation.swift */; };
-		197A5C2C2213A6BD00048191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C2B2213A6BD00048191 /* ViewController.swift */; };
 		197A5C2E2213A6E300048191 /* PeixeUrbanoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C2D2213A6E300048191 /* PeixeUrbanoManager.swift */; };
+		197A5C312214DAE400048191 /* ListCityOffersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C302214DAE400048191 /* ListCityOffersInteractor.swift */; };
+		197A5C342214DD2F00048191 /* ListCityOffersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C332214DD2F00048191 /* ListCityOffersPresenter.swift */; };
+		197A5C382214DEBE00048191 /* ListCityOffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C372214DEBE00048191 /* ListCityOffersViewController.swift */; };
+		197A5C3C2214DFE300048191 /* CityOffers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197A5C3B2214DFE300048191 /* CityOffers.storyboard */; };
+		197A5C3E2214E04B00048191 /* TripOffers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197A5C3D2214E04B00048191 /* TripOffers.storyboard */; };
+		197A5C402214E05B00048191 /* ProductOffers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197A5C3F2214E05B00048191 /* ProductOffers.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +49,13 @@
 		197A5C2522139B5100048191 /* OfferObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferObjects.swift; sourceTree = "<group>"; };
 		197A5C2722139E3F00048191 /* OfferImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferImage.swift; sourceTree = "<group>"; };
 		197A5C2922139FD200048191 /* OfferLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferLocation.swift; sourceTree = "<group>"; };
-		197A5C2B2213A6BD00048191 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		197A5C2D2213A6E300048191 /* PeixeUrbanoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeixeUrbanoManager.swift; sourceTree = "<group>"; };
+		197A5C302214DAE400048191 /* ListCityOffersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCityOffersInteractor.swift; sourceTree = "<group>"; };
+		197A5C332214DD2F00048191 /* ListCityOffersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCityOffersPresenter.swift; sourceTree = "<group>"; };
+		197A5C372214DEBE00048191 /* ListCityOffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCityOffersViewController.swift; sourceTree = "<group>"; };
+		197A5C3B2214DFE300048191 /* CityOffers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CityOffers.storyboard; sourceTree = "<group>"; };
+		197A5C3D2214E04B00048191 /* TripOffers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TripOffers.storyboard; sourceTree = "<group>"; };
+		197A5C3F2214E05B00048191 /* ProductOffers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductOffers.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +100,7 @@
 		197A5C0A22136ABA00048191 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				197A5C202213749400048191 /* Models */,
+				197A5C2F2214DABE00048191 /* OffersPerCity */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -98,7 +108,7 @@
 		197A5C0B22136AD700048191 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				197A5C2B2213A6BD00048191 /* ViewController.swift */,
+				197A5C322214DD1300048191 /* OffersPerCity */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -106,8 +116,8 @@
 		197A5C0C22136AE400048191 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
-				197A5C0122136A7D00048191 /* LaunchScreen.storyboard */,
-				197A5BFC22136A7600048191 /* Main.storyboard */,
+				197A5C3A2214DF2200048191 /* Views */,
+				197A5C392214DF1D00048191 /* Storyboards */,
 				197A5BFF22136A7D00048191 /* Assets.xcassets */,
 			);
 			path = UserInterface;
@@ -125,6 +135,7 @@
 		197A5C0E22136AF500048191 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				197A5C202213749400048191 /* Entities */,
 				197A5C1622136CFE00048191 /* API PeixeUrbano */,
 				197A5C0F22136B4D00048191 /* Gateway */,
 			);
@@ -176,7 +187,7 @@
 			path = Client;
 			sourceTree = "<group>";
 		};
-		197A5C202213749400048191 /* Models */ = {
+		197A5C202213749400048191 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
 				197A5C21221374AA00048191 /* Offer.swift */,
@@ -185,7 +196,43 @@
 				197A5C2722139E3F00048191 /* OfferImage.swift */,
 				197A5C2922139FD200048191 /* OfferLocation.swift */,
 			);
-			path = Models;
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		197A5C2F2214DABE00048191 /* OffersPerCity */ = {
+			isa = PBXGroup;
+			children = (
+				197A5C302214DAE400048191 /* ListCityOffersInteractor.swift */,
+			);
+			path = OffersPerCity;
+			sourceTree = "<group>";
+		};
+		197A5C322214DD1300048191 /* OffersPerCity */ = {
+			isa = PBXGroup;
+			children = (
+				197A5C332214DD2F00048191 /* ListCityOffersPresenter.swift */,
+				197A5C372214DEBE00048191 /* ListCityOffersViewController.swift */,
+			);
+			path = OffersPerCity;
+			sourceTree = "<group>";
+		};
+		197A5C392214DF1D00048191 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				197A5C3B2214DFE300048191 /* CityOffers.storyboard */,
+				197A5C0122136A7D00048191 /* LaunchScreen.storyboard */,
+				197A5BFC22136A7600048191 /* Main.storyboard */,
+				197A5C3D2214E04B00048191 /* TripOffers.storyboard */,
+				197A5C3F2214E05B00048191 /* ProductOffers.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		197A5C3A2214DF2200048191 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +295,10 @@
 			files = (
 				197A5C0322136A7D00048191 /* LaunchScreen.storyboard in Resources */,
 				197A5C0022136A7D00048191 /* Assets.xcassets in Resources */,
+				197A5C3C2214DFE300048191 /* CityOffers.storyboard in Resources */,
+				197A5C3E2214E04B00048191 /* TripOffers.storyboard in Resources */,
 				197A5BFE22136A7600048191 /* Main.storyboard in Resources */,
+				197A5C402214E05B00048191 /* ProductOffers.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,11 +318,13 @@
 				197A5C1122136B5900048191 /* APIClient.swift in Sources */,
 				197A5C2E2213A6E300048191 /* PeixeUrbanoManager.swift in Sources */,
 				197A5C1F22136EF000048191 /* OfferImageClient.swift in Sources */,
-				197A5C2C2213A6BD00048191 /* ViewController.swift in Sources */,
+				197A5C312214DAE400048191 /* ListCityOffersInteractor.swift in Sources */,
 				197A5C2622139B5100048191 /* OfferObjects.swift in Sources */,
+				197A5C382214DEBE00048191 /* ListCityOffersViewController.swift in Sources */,
 				197A5C1A22136DB900048191 /* PeixeUrbanoEndpoints.swift in Sources */,
 				197A5C2822139E3F00048191 /* OfferImage.swift in Sources */,
 				197A5C1D22136E9100048191 /* PeixeUrbanoClient.swift in Sources */,
+				197A5C342214DD2F00048191 /* ListCityOffersPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -150,7 +150,7 @@ public extension APIClient {
                 }
 
                 if let data = decode(json) {
-                    completionHandler(Result.sucess(data))
+                    completionHandler(Result.success(data))
                 } else {
                     completionHandler(Result.failed(.jsonParsingFailure))
                 }
