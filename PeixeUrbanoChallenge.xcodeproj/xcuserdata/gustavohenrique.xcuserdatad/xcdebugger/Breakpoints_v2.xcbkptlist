@@ -2,4 +2,134 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeixeUrbanoChallenge/Common/API/PeixeUrbano/PeixeUrbanoClient.swift"
+            timestampString = "580412285.966483"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "getProducts(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PeixeUrbanoChallenge.PeixeUrbanoClient.(getProducts in _7D70F98E6A5BD8176EA77E7452FFF947)(completion: (PeixeUrbanoChallenge.Result&lt;PeixeUrbanoChallenge.OfferResponse, PeixeUrbanoChallenge.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PeixeUrbanoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gustavohenrique/Documents/Desenvolvimento/iOS/PeixeUrbanoChallenge/PeixeUrbanoChallenge/Common/API/PeixeUrbano/PeixeUrbanoClient.swift"
+                  timestampString = "580411591.572911"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "166">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Decodable) -&gt; Swift.Optional&lt;PeixeUrbanoChallenge.OfferResponse&gt; in PeixeUrbanoChallenge.PeixeUrbanoClient.(getProducts in _7D70F98E6A5BD8176EA77E7452FFF947)(completion: (PeixeUrbanoChallenge.Result&lt;PeixeUrbanoChallenge.OfferResponse, PeixeUrbanoChallenge.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PeixeUrbanoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gustavohenrique/Documents/Desenvolvimento/iOS/PeixeUrbanoChallenge/PeixeUrbanoChallenge/Common/API/PeixeUrbano/PeixeUrbanoClient.swift"
+                  timestampString = "580411591.575974"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeixeUrbanoChallenge/Common/Gateway/Client.swift"
+            timestampString = "580411649.818674"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "decodingTask(with:decodingType:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in PeixeUrbanoChallenge):PeixeUrbanoChallenge.APIClient.decodingTask&lt;A where A1: Swift.Decodable&gt;(with: Foundation.URLRequest, decodingType: A1.Type, completionHandler: (Swift.Optional&lt;Swift.Decodable&gt;, Swift.Optional&lt;PeixeUrbanoChallenge.APIError&gt;) -&gt; ()) -&gt; __C.NSURLSessionDataTask"
+                  moduleName = "PeixeUrbanoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gustavohenrique/Documents/Desenvolvimento/iOS/PeixeUrbanoChallenge/PeixeUrbanoChallenge/Common/Gateway/Client.swift"
+                  timestampString = "580411591.584175"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in (extension in PeixeUrbanoChallenge):PeixeUrbanoChallenge.APIClient.decodingTask&lt;A where A1: Swift.Decodable&gt;(with: Foundation.URLRequest, decodingType: A1.Type, completionHandler: (Swift.Optional&lt;Swift.Decodable&gt;, Swift.Optional&lt;PeixeUrbanoChallenge.APIError&gt;) -&gt; ()) -&gt; __C.NSURLSessionDataTask"
+                  moduleName = "PeixeUrbanoChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gustavohenrique/Documents/Desenvolvimento/iOS/PeixeUrbanoChallenge/PeixeUrbanoChallenge/Common/Gateway/Client.swift"
+                  timestampString = "580411591.586964"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "163">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeixeUrbanoChallenge/Common/Gateway/Client.swift"
+            timestampString = "580411649.8187259"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "decodingTask(with:decodingType:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeixeUrbanoChallenge/Common/Gateway/Client.swift"
+            timestampString = "580411649.818771"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "decodingTask(with:decodingType:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

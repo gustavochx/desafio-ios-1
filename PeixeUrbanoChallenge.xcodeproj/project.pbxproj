@@ -11,24 +11,35 @@
 		197A5BFE22136A7600048191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197A5BFC22136A7600048191 /* Main.storyboard */; };
 		197A5C0022136A7D00048191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197A5BFF22136A7D00048191 /* Assets.xcassets */; };
 		197A5C0322136A7D00048191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197A5C0122136A7D00048191 /* LaunchScreen.storyboard */; };
-		197A5C1122136B5900048191 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C1022136B5900048191 /* APIClient.swift */; };
+		197A5C1122136B5900048191 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C1022136B5900048191 /* Client.swift */; };
 		197A5C1322136B9500048191 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C1222136B9500048191 /* Endpoint.swift */; };
 		197A5C1522136BB200048191 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C1422136BB200048191 /* Result.swift */; };
 		197A5C1A22136DB900048191 /* PeixeUrbanoEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C1922136DB900048191 /* PeixeUrbanoEndpoints.swift */; };
 		197A5C1D22136E9100048191 /* PeixeUrbanoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C1C22136E9100048191 /* PeixeUrbanoClient.swift */; };
-		197A5C1F22136EF000048191 /* OfferImageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C1E22136EF000048191 /* OfferImageClient.swift */; };
 		197A5C22221374AA00048191 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C21221374AA00048191 /* Offer.swift */; };
 		197A5C2422139AA500048191 /* OfferResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C2322139AA500048191 /* OfferResponse.swift */; };
 		197A5C2622139B5100048191 /* OfferObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C2522139B5100048191 /* OfferObjects.swift */; };
 		197A5C2822139E3F00048191 /* OfferImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C2722139E3F00048191 /* OfferImage.swift */; };
 		197A5C2A22139FD200048191 /* OfferLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C2922139FD200048191 /* OfferLocation.swift */; };
-		197A5C2E2213A6E300048191 /* PeixeUrbanoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C2D2213A6E300048191 /* PeixeUrbanoManager.swift */; };
 		197A5C312214DAE400048191 /* ListCityOffersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C302214DAE400048191 /* ListCityOffersInteractor.swift */; };
 		197A5C342214DD2F00048191 /* ListCityOffersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C332214DD2F00048191 /* ListCityOffersPresenter.swift */; };
 		197A5C382214DEBE00048191 /* ListCityOffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C372214DEBE00048191 /* ListCityOffersViewController.swift */; };
-		197A5C3C2214DFE300048191 /* CityOffers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197A5C3B2214DFE300048191 /* CityOffers.storyboard */; };
-		197A5C3E2214E04B00048191 /* TripOffers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197A5C3D2214E04B00048191 /* TripOffers.storyboard */; };
-		197A5C402214E05B00048191 /* ProductOffers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197A5C3F2214E05B00048191 /* ProductOffers.storyboard */; };
+		197A5C3C2214DFE300048191 /* City.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197A5C3B2214DFE300048191 /* City.storyboard */; };
+		197A5C3E2214E04B00048191 /* Trip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197A5C3D2214E04B00048191 /* Trip.storyboard */; };
+		197A5C402214E05B00048191 /* Product.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197A5C3F2214E05B00048191 /* Product.storyboard */; };
+		197A5C432225974E00048191 /* OfferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C412225974E00048191 /* OfferTableViewCell.swift */; };
+		197A5C442225974E00048191 /* OfferTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 197A5C422225974E00048191 /* OfferTableViewCell.xib */; };
+		197A5C472225AAA200048191 /* UIImageView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C462225AAA200048191 /* UIImageView+Util.swift */; };
+		197A5C4A2225BB6400048191 /* ListTripOffersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C492225BB6400048191 /* ListTripOffersInteractor.swift */; };
+		197A5C4D2225BEF800048191 /* ListTripOffersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197A5C4C2225BEF800048191 /* ListTripOffersPresenter.swift */; };
+		19B24BAC229839AE0066D41F /* UIColor+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B24BAB229839AE0066D41F /* UIColor+Util.swift */; };
+		19B24BAE22983AB20066D41F /* UIViewController+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B24BAD22983AB20066D41F /* UIViewController+Util.swift */; };
+		19B24BB222985B060066D41F /* ListProductOfferPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B24BB122985B060066D41F /* ListProductOfferPresenter.swift */; };
+		19B24BB422985B140066D41F /* ListProductOfferInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B24BB322985B140066D41F /* ListProductOfferInteractor.swift */; };
+		19B24BB622985B240066D41F /* ListProductOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B24BB522985B240066D41F /* ListProductOfferViewController.swift */; };
+		19C9D6F6226E363A00FF9C73 /* PersistanceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9D6F5226E363A00FF9C73 /* PersistanceInterface.swift */; };
+		19C9D6F8226E368A00FF9C73 /* PersistenceCoreDataImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9D6F7226E368A00FF9C73 /* PersistenceCoreDataImplementation.swift */; };
+		19C9D6FC226E40E800FF9C73 /* ListTripOffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9D6FB226E40E800FF9C73 /* ListTripOffersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,24 +49,35 @@
 		197A5BFF22136A7D00048191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		197A5C0222136A7D00048191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		197A5C0422136A7D00048191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		197A5C1022136B5900048191 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		197A5C1022136B5900048191 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		197A5C1222136B9500048191 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		197A5C1422136BB200048191 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		197A5C1922136DB900048191 /* PeixeUrbanoEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeixeUrbanoEndpoints.swift; sourceTree = "<group>"; };
 		197A5C1C22136E9100048191 /* PeixeUrbanoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeixeUrbanoClient.swift; sourceTree = "<group>"; };
-		197A5C1E22136EF000048191 /* OfferImageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferImageClient.swift; sourceTree = "<group>"; };
 		197A5C21221374AA00048191 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		197A5C2322139AA500048191 /* OfferResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferResponse.swift; sourceTree = "<group>"; };
 		197A5C2522139B5100048191 /* OfferObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferObjects.swift; sourceTree = "<group>"; };
 		197A5C2722139E3F00048191 /* OfferImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferImage.swift; sourceTree = "<group>"; };
 		197A5C2922139FD200048191 /* OfferLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferLocation.swift; sourceTree = "<group>"; };
-		197A5C2D2213A6E300048191 /* PeixeUrbanoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeixeUrbanoManager.swift; sourceTree = "<group>"; };
 		197A5C302214DAE400048191 /* ListCityOffersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCityOffersInteractor.swift; sourceTree = "<group>"; };
 		197A5C332214DD2F00048191 /* ListCityOffersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCityOffersPresenter.swift; sourceTree = "<group>"; };
 		197A5C372214DEBE00048191 /* ListCityOffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCityOffersViewController.swift; sourceTree = "<group>"; };
-		197A5C3B2214DFE300048191 /* CityOffers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CityOffers.storyboard; sourceTree = "<group>"; };
-		197A5C3D2214E04B00048191 /* TripOffers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TripOffers.storyboard; sourceTree = "<group>"; };
-		197A5C3F2214E05B00048191 /* ProductOffers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductOffers.storyboard; sourceTree = "<group>"; };
+		197A5C3B2214DFE300048191 /* City.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = City.storyboard; sourceTree = "<group>"; };
+		197A5C3D2214E04B00048191 /* Trip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Trip.storyboard; sourceTree = "<group>"; };
+		197A5C3F2214E05B00048191 /* Product.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Product.storyboard; sourceTree = "<group>"; };
+		197A5C412225974E00048191 /* OfferTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferTableViewCell.swift; sourceTree = "<group>"; };
+		197A5C422225974E00048191 /* OfferTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferTableViewCell.xib; sourceTree = "<group>"; };
+		197A5C462225AAA200048191 /* UIImageView+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Util.swift"; sourceTree = "<group>"; };
+		197A5C492225BB6400048191 /* ListTripOffersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTripOffersInteractor.swift; sourceTree = "<group>"; };
+		197A5C4C2225BEF800048191 /* ListTripOffersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTripOffersPresenter.swift; sourceTree = "<group>"; };
+		19B24BAB229839AE0066D41F /* UIColor+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Util.swift"; sourceTree = "<group>"; };
+		19B24BAD22983AB20066D41F /* UIViewController+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Util.swift"; sourceTree = "<group>"; };
+		19B24BB122985B060066D41F /* ListProductOfferPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductOfferPresenter.swift; sourceTree = "<group>"; };
+		19B24BB322985B140066D41F /* ListProductOfferInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductOfferInteractor.swift; sourceTree = "<group>"; };
+		19B24BB522985B240066D41F /* ListProductOfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductOfferViewController.swift; sourceTree = "<group>"; };
+		19C9D6F5226E363A00FF9C73 /* PersistanceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceInterface.swift; sourceTree = "<group>"; };
+		19C9D6F7226E368A00FF9C73 /* PersistenceCoreDataImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceCoreDataImplementation.swift; sourceTree = "<group>"; };
+		19C9D6FB226E40E800FF9C73 /* ListTripOffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTripOffersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +110,10 @@
 		197A5BF722136A7600048191 /* PeixeUrbanoChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				19B24BA7229836660066D41F /* Presentation */,
 				197A5C0A22136ABA00048191 /* Domain */,
 				197A5C0D22136AEE00048191 /* Misc */,
-				197A5C0B22136AD700048191 /* Presentation */,
-				197A5C0E22136AF500048191 /* Service */,
-				197A5C0C22136AE400048191 /* UserInterface */,
+				197A5C0E22136AF500048191 /* Common */,
 			);
 			path = PeixeUrbanoChallenge;
 			sourceTree = "<group>";
@@ -100,17 +121,9 @@
 		197A5C0A22136ABA00048191 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				197A5C2F2214DABE00048191 /* OffersPerCity */,
+				197A5C202213749400048191 /* Entities */,
 			);
 			path = Domain;
-			sourceTree = "<group>";
-		};
-		197A5C0B22136AD700048191 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				197A5C322214DD1300048191 /* OffersPerCity */,
-			);
-			path = Presentation;
 			sourceTree = "<group>";
 		};
 		197A5C0C22136AE400048191 /* UserInterface */ = {
@@ -118,7 +131,6 @@
 			children = (
 				197A5C3A2214DF2200048191 /* Views */,
 				197A5C392214DF1D00048191 /* Storyboards */,
-				197A5BFF22136A7D00048191 /* Assets.xcassets */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -126,65 +138,41 @@
 		197A5C0D22136AEE00048191 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				197A5BFF22136A7D00048191 /* Assets.xcassets */,
 				197A5C0422136A7D00048191 /* Info.plist */,
 				197A5BF822136A7600048191 /* AppDelegate.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
 		};
-		197A5C0E22136AF500048191 /* Service */ = {
+		197A5C0E22136AF500048191 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				197A5C202213749400048191 /* Entities */,
-				197A5C1622136CFE00048191 /* API PeixeUrbano */,
+				19B24BAA229836C20066D41F /* API */,
+				19C9D6F3226E360600FF9C73 /* Persistence */,
+				197A5C452225AA8B00048191 /* Extensions */,
 				197A5C0F22136B4D00048191 /* Gateway */,
 			);
-			path = Service;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		197A5C0F22136B4D00048191 /* Gateway */ = {
 			isa = PBXGroup;
 			children = (
-				197A5C1022136B5900048191 /* APIClient.swift */,
+				197A5C1022136B5900048191 /* Client.swift */,
 				197A5C1222136B9500048191 /* Endpoint.swift */,
 				197A5C1422136BB200048191 /* Result.swift */,
 			);
 			path = Gateway;
 			sourceTree = "<group>";
 		};
-		197A5C1622136CFE00048191 /* API PeixeUrbano */ = {
-			isa = PBXGroup;
-			children = (
-				197A5C1722136D2200048191 /* Endpoints */,
-				197A5C1822136D3900048191 /* Gateway */,
-			);
-			path = "API PeixeUrbano";
-			sourceTree = "<group>";
-		};
-		197A5C1722136D2200048191 /* Endpoints */ = {
+		197A5C1622136CFE00048191 /* PeixeUrbano */ = {
 			isa = PBXGroup;
 			children = (
 				197A5C1922136DB900048191 /* PeixeUrbanoEndpoints.swift */,
-			);
-			path = Endpoints;
-			sourceTree = "<group>";
-		};
-		197A5C1822136D3900048191 /* Gateway */ = {
-			isa = PBXGroup;
-			children = (
-				197A5C2D2213A6E300048191 /* PeixeUrbanoManager.swift */,
-				197A5C1B22136E6C00048191 /* Client */,
-			);
-			path = Gateway;
-			sourceTree = "<group>";
-		};
-		197A5C1B22136E6C00048191 /* Client */ = {
-			isa = PBXGroup;
-			children = (
 				197A5C1C22136E9100048191 /* PeixeUrbanoClient.swift */,
-				197A5C1E22136EF000048191 /* OfferImageClient.swift */,
 			);
-			path = Client;
+			path = PeixeUrbano;
 			sourceTree = "<group>";
 		};
 		197A5C202213749400048191 /* Entities */ = {
@@ -199,31 +187,14 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
-		197A5C2F2214DABE00048191 /* OffersPerCity */ = {
-			isa = PBXGroup;
-			children = (
-				197A5C302214DAE400048191 /* ListCityOffersInteractor.swift */,
-			);
-			path = OffersPerCity;
-			sourceTree = "<group>";
-		};
-		197A5C322214DD1300048191 /* OffersPerCity */ = {
-			isa = PBXGroup;
-			children = (
-				197A5C332214DD2F00048191 /* ListCityOffersPresenter.swift */,
-				197A5C372214DEBE00048191 /* ListCityOffersViewController.swift */,
-			);
-			path = OffersPerCity;
-			sourceTree = "<group>";
-		};
 		197A5C392214DF1D00048191 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				197A5C3B2214DFE300048191 /* CityOffers.storyboard */,
+				197A5C3B2214DFE300048191 /* City.storyboard */,
 				197A5C0122136A7D00048191 /* LaunchScreen.storyboard */,
 				197A5BFC22136A7600048191 /* Main.storyboard */,
-				197A5C3D2214E04B00048191 /* TripOffers.storyboard */,
-				197A5C3F2214E05B00048191 /* ProductOffers.storyboard */,
+				197A5C3D2214E04B00048191 /* Trip.storyboard */,
+				197A5C3F2214E05B00048191 /* Product.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -231,8 +202,86 @@
 		197A5C3A2214DF2200048191 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				197A5C412225974E00048191 /* OfferTableViewCell.swift */,
+				197A5C422225974E00048191 /* OfferTableViewCell.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		197A5C452225AA8B00048191 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				197A5C462225AAA200048191 /* UIImageView+Util.swift */,
+				19B24BAB229839AE0066D41F /* UIColor+Util.swift */,
+				19B24BAD22983AB20066D41F /* UIViewController+Util.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		19B24BA7229836660066D41F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				19B24BB022985ADC0066D41F /* Product */,
+				197A5C0C22136AE400048191 /* UserInterface */,
+				19B24BA9229836780066D41F /* City */,
+				19B24BA8229836710066D41F /* Trip */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		19B24BA8229836710066D41F /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				197A5C4C2225BEF800048191 /* ListTripOffersPresenter.swift */,
+				197A5C492225BB6400048191 /* ListTripOffersInteractor.swift */,
+				19C9D6FB226E40E800FF9C73 /* ListTripOffersViewController.swift */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		19B24BA9229836780066D41F /* City */ = {
+			isa = PBXGroup;
+			children = (
+				197A5C332214DD2F00048191 /* ListCityOffersPresenter.swift */,
+				197A5C372214DEBE00048191 /* ListCityOffersViewController.swift */,
+				197A5C302214DAE400048191 /* ListCityOffersInteractor.swift */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		19B24BAA229836C20066D41F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				197A5C1622136CFE00048191 /* PeixeUrbano */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		19B24BB022985ADC0066D41F /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				19B24BB122985B060066D41F /* ListProductOfferPresenter.swift */,
+				19B24BB322985B140066D41F /* ListProductOfferInteractor.swift */,
+				19B24BB522985B240066D41F /* ListProductOfferViewController.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		19C9D6F3226E360600FF9C73 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				19C9D6F4226E361100FF9C73 /* CoreData */,
+				19C9D6F5226E363A00FF9C73 /* PersistanceInterface.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		19C9D6F4226E361100FF9C73 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				19C9D6F7226E368A00FF9C73 /* PersistenceCoreDataImplementation.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +316,7 @@
 				TargetAttributes = {
 					197A5BF422136A7600048191 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -295,10 +345,11 @@
 			files = (
 				197A5C0322136A7D00048191 /* LaunchScreen.storyboard in Resources */,
 				197A5C0022136A7D00048191 /* Assets.xcassets in Resources */,
-				197A5C3C2214DFE300048191 /* CityOffers.storyboard in Resources */,
-				197A5C3E2214E04B00048191 /* TripOffers.storyboard in Resources */,
+				197A5C3C2214DFE300048191 /* City.storyboard in Resources */,
+				197A5C3E2214E04B00048191 /* Trip.storyboard in Resources */,
 				197A5BFE22136A7600048191 /* Main.storyboard in Resources */,
-				197A5C402214E05B00048191 /* ProductOffers.storyboard in Resources */,
+				197A5C402214E05B00048191 /* Product.storyboard in Resources */,
+				197A5C442225974E00048191 /* OfferTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,22 +360,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B24BAC229839AE0066D41F /* UIColor+Util.swift in Sources */,
 				197A5C22221374AA00048191 /* Offer.swift in Sources */,
+				19C9D6F6226E363A00FF9C73 /* PersistanceInterface.swift in Sources */,
 				197A5C2A22139FD200048191 /* OfferLocation.swift in Sources */,
 				197A5C1522136BB200048191 /* Result.swift in Sources */,
 				197A5BF922136A7600048191 /* AppDelegate.swift in Sources */,
 				197A5C1322136B9500048191 /* Endpoint.swift in Sources */,
+				197A5C432225974E00048191 /* OfferTableViewCell.swift in Sources */,
 				197A5C2422139AA500048191 /* OfferResponse.swift in Sources */,
-				197A5C1122136B5900048191 /* APIClient.swift in Sources */,
-				197A5C2E2213A6E300048191 /* PeixeUrbanoManager.swift in Sources */,
-				197A5C1F22136EF000048191 /* OfferImageClient.swift in Sources */,
+				197A5C1122136B5900048191 /* Client.swift in Sources */,
+				19B24BB422985B140066D41F /* ListProductOfferInteractor.swift in Sources */,
 				197A5C312214DAE400048191 /* ListCityOffersInteractor.swift in Sources */,
+				19B24BB222985B060066D41F /* ListProductOfferPresenter.swift in Sources */,
+				19B24BAE22983AB20066D41F /* UIViewController+Util.swift in Sources */,
 				197A5C2622139B5100048191 /* OfferObjects.swift in Sources */,
+				197A5C472225AAA200048191 /* UIImageView+Util.swift in Sources */,
+				197A5C4A2225BB6400048191 /* ListTripOffersInteractor.swift in Sources */,
+				19C9D6F8226E368A00FF9C73 /* PersistenceCoreDataImplementation.swift in Sources */,
 				197A5C382214DEBE00048191 /* ListCityOffersViewController.swift in Sources */,
+				19C9D6FC226E40E800FF9C73 /* ListTripOffersViewController.swift in Sources */,
 				197A5C1A22136DB900048191 /* PeixeUrbanoEndpoints.swift in Sources */,
+				197A5C4D2225BEF800048191 /* ListTripOffersPresenter.swift in Sources */,
 				197A5C2822139E3F00048191 /* OfferImage.swift in Sources */,
 				197A5C1D22136E9100048191 /* PeixeUrbanoClient.swift in Sources */,
 				197A5C342214DD2F00048191 /* ListCityOffersPresenter.swift in Sources */,
+				19B24BB622985B240066D41F /* ListProductOfferViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ5NR4GS29;
 				INFOPLIST_FILE = "$(SRCROOT)/PeixeUrbanoChallenge/Misc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,7 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.gustavo.PeixeUrbanoChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -488,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ5NR4GS29;
 				INFOPLIST_FILE = "$(SRCROOT)/PeixeUrbanoChallenge/Misc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,7 +558,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.gustavo.PeixeUrbanoChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
