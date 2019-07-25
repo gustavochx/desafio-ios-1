@@ -37,8 +37,6 @@
 		19B24BB222985B060066D41F /* ListProductOfferPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B24BB122985B060066D41F /* ListProductOfferPresenter.swift */; };
 		19B24BB422985B140066D41F /* ListProductOfferInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B24BB322985B140066D41F /* ListProductOfferInteractor.swift */; };
 		19B24BB622985B240066D41F /* ListProductOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B24BB522985B240066D41F /* ListProductOfferViewController.swift */; };
-		19C9D6F6226E363A00FF9C73 /* PersistanceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9D6F5226E363A00FF9C73 /* PersistanceInterface.swift */; };
-		19C9D6F8226E368A00FF9C73 /* PersistenceCoreDataImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9D6F7226E368A00FF9C73 /* PersistenceCoreDataImplementation.swift */; };
 		19C9D6FC226E40E800FF9C73 /* ListTripOffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9D6FB226E40E800FF9C73 /* ListTripOffersViewController.swift */; };
 		19ED4B0C22EA25960090C943 /* APICallsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED4B0B22EA25960090C943 /* APICallsTest.swift */; };
 /* End PBXBuildFile section */
@@ -86,8 +84,6 @@
 		19B24BB122985B060066D41F /* ListProductOfferPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductOfferPresenter.swift; sourceTree = "<group>"; };
 		19B24BB322985B140066D41F /* ListProductOfferInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductOfferInteractor.swift; sourceTree = "<group>"; };
 		19B24BB522985B240066D41F /* ListProductOfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductOfferViewController.swift; sourceTree = "<group>"; };
-		19C9D6F5226E363A00FF9C73 /* PersistanceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceInterface.swift; sourceTree = "<group>"; };
-		19C9D6F7226E368A00FF9C73 /* PersistenceCoreDataImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceCoreDataImplementation.swift; sourceTree = "<group>"; };
 		19C9D6FB226E40E800FF9C73 /* ListTripOffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTripOffersViewController.swift; sourceTree = "<group>"; };
 		19ED4B0922EA25960090C943 /* PeixeUrbanoChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeixeUrbanoChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19ED4B0B22EA25960090C943 /* APICallsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsTest.swift; sourceTree = "<group>"; };
@@ -293,18 +289,8 @@
 		19C9D6F3226E360600FF9C73 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
-				19C9D6F4226E361100FF9C73 /* CoreData */,
-				19C9D6F5226E363A00FF9C73 /* PersistanceInterface.swift */,
 			);
 			path = Persistence;
-			sourceTree = "<group>";
-		};
-		19C9D6F4226E361100FF9C73 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				19C9D6F7226E368A00FF9C73 /* PersistenceCoreDataImplementation.swift */,
-			);
-			path = CoreData;
 			sourceTree = "<group>";
 		};
 		19ED4B0A22EA25960090C943 /* PeixeUrbanoChallengeTests */ = {
@@ -424,7 +410,6 @@
 			files = (
 				19B24BAC229839AE0066D41F /* UIColor+Util.swift in Sources */,
 				197A5C22221374AA00048191 /* Offer.swift in Sources */,
-				19C9D6F6226E363A00FF9C73 /* PersistanceInterface.swift in Sources */,
 				197A5C2A22139FD200048191 /* OfferLocation.swift in Sources */,
 				197A5C1522136BB200048191 /* Result.swift in Sources */,
 				197A5BF922136A7600048191 /* AppDelegate.swift in Sources */,
@@ -439,7 +424,6 @@
 				197A5C2622139B5100048191 /* OfferObjects.swift in Sources */,
 				197A5C472225AAA200048191 /* UIImageView+Util.swift in Sources */,
 				197A5C4A2225BB6400048191 /* ListTripOffersInteractor.swift in Sources */,
-				19C9D6F8226E368A00FF9C73 /* PersistenceCoreDataImplementation.swift in Sources */,
 				197A5C382214DEBE00048191 /* ListCityOffersViewController.swift in Sources */,
 				19C9D6FC226E40E800FF9C73 /* ListTripOffersViewController.swift in Sources */,
 				197A5C1A22136DB900048191 /* PeixeUrbanoEndpoints.swift in Sources */,
