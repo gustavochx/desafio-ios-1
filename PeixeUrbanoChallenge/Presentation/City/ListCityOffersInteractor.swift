@@ -28,7 +28,7 @@ class ListCityOffersInteractor {
     }
 
     private func getOffers(completion: @escaping(Result<[Offer],APIError>) -> Void) {
-        PeixeUrbanoClient.shared.getCityDeals { result in
+        PeixeUrbanoClient.shared.getCityDeals(city: nil) { result in
             switch(result) {
             case .success(let offerResponse):
                 guard let deals = offerResponse.response.deals else {

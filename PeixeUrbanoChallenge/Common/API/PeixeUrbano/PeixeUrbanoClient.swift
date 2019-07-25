@@ -21,20 +21,50 @@ class PeixeUrbanoClient: APIClient {
         self.init(configuration: .default)
     }
 
-    func getCityDeals(completion: @escaping(Result<OfferResponse,APIError>) -> Void) {
-        getCity {  result in
-            switch(result) {
-            case .success(let offerResponse):
-                completion(Result.success(offerResponse))
+    func getCityDeals(city: String?, completion: @escaping(Result<OfferResponse,APIError>) -> Void) {
 
-            case .failed(let error):
-                completion(Result.failed(error))
+        if city == nil {
+
+            getCity {  result in
+                switch(result) {
+                case .success(let offerResponse):
+                    completion(Result.success(offerResponse))
+
+                case .failed(let error):
+                    completion(Result.failed(error))
+                }
+            }
+
+        } else {
+
+            getDealsFor(city: city!) { result in
+                switch(result) {
+                case .success(let offerResponse):
+                    completion(Result.success(offerResponse))
+
+                case .failed(let error):
+                    completion(Result.failed(error))
+                }
             }
         }
     }
 
     private func getCity(completion: @escaping(Result<OfferResponse,APIError>) -> Void) {
         let request = PeixeUrbanoEndpoints.listcityoffers.requestGet
+
+        fetch(with: request, decode: { (json) -> OfferResponse? in
+            guard let object = json as? OfferResponse else {
+                return nil
+            }
+            return object
+        }, completionHandler: completion)
+
+    }
+
+    private func getDealsFor(city: String, completion: @escaping(Result<OfferResponse,APIError>)->Void) {
+
+        var request = PeixeUrbanoEndpoints.listcityoffers.requestGet
+        request.url = URL(string: "https://gist.githubusercontent.com/insidegui/2b1f747ebeb9070e33818bf857e28a84/raw/5da63767fda2ec16f4ae0718e3be4be75001fe10/\(city).json")
 
         fetch(with: request, decode: { (json) -> OfferResponse? in
             guard let object = json as? OfferResponse else {

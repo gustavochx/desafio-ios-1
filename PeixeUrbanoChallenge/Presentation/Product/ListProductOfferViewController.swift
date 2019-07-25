@@ -41,7 +41,6 @@ extension ListProductOfferViewController : UITableViewDelegate, UITableViewDataS
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-
         let cell = tableView.dequeueReusableCell(withIdentifier: "offerTableCell", for: indexPath) as! OfferTableViewCell
         cell.configure(offer: (self.presenter?.offerForIndex(index: indexPath.row))!)
 
